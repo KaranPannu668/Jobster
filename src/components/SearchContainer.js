@@ -11,7 +11,6 @@ const SearchContainer = () => {
     const dispatch = useDispatch()
 
     const handleSearch = (e) => {
-        // is loading check later
         dispatch(handleChange({name:e.target.name, value: e.target.value}))
     }
     const handleSubmit = (e) => {
