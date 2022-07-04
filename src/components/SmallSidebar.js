@@ -22,7 +22,7 @@ const SmallSidebar = () => {
                 <header>
                     <Logo />
                 </header>
-                <NavLinks toggleSidebar={toggleSidebar} />
+                <NavLinks toggleSidebar={toggle} />
             </div>
         </div>
     </Wrapper>
